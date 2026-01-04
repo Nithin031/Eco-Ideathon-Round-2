@@ -1,0 +1,17 @@
+name: solar-pv-verification
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pillow
+  - requests
+  - shapely>=2.0,<3.0
+  - opencv
+  - pytorch>=2.0,<3.0
+  - torchvision>=0.15,<1.0
+  - pip
+  - pip:
+      - ultralytics==8.3.237
